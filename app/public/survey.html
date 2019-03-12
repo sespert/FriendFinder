@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron"> 
+            <h3>Survey Questions</h3>
+            <hr>
+            <h4>About You</h4>
+        <div class="form-group">
+            <label for="name">Name (Required)</label>
+            <input type="text" class="form-control" id="name">            
+        </div>
+        <div class="form-group">
+            <label for="name">Link to your picture (Required)</label>
+            <input type="text" class="form-control" id="picture">            
+        </div>
+        <hr>
+        <h4>Answer each question, selecting 1 if you strongly disagree or 5 if you strongly agree.</h4>
+
+        <div class="form-group">
+            <h4>Question 1</h4>
+            <label for="question1">At school you spent most of your lunchtimes helping others with their work.</label><br>
+            <select class="form-control-sm" id="question1">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 2</h4>
+            <label for="question2">With your friends, you talk mostly about personal projects.</label><br>
+            <select class="form-control-sm" id="question2">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 3</h4>
+            <!-- <h5></h5>             -->
+            <label for="question3">If a best friend is emigrating, you'll be losing the key to your social life.</label><br>
+            <select class="form-control-sm" id="question3">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 4</h4>
+            <label for="question4">If a friend does something you don't like, you let it go.</label><br>
+            <select class="form-control-sm" id="question4">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 5</h4>
+            <label for="question5">Spending a weekend with friends means a visit to a theatre or musical festival.</label><br>
+            <select class="form-control-sm" id="question5">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 6</h4>
+            <label for="question6">One of your fiends hasn't called you for a while. You don't really worry about it.</label><br>
+            <select class="form-control-sm" id="question6">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 7</h4>
+            <label for="question7">You haven't seen your friend much since he/she started dating someone new. Your're dissapointed.</label><br>
+            <select class="form-control-sm" id="question7">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 8</h4>
+            <label for="question8">You and your friends have practically everything in common.</label><br>
+            <select class="form-control-sm" id="question8">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 9</h4>
+            <label for="question9">You most likely be friends with someone sporty and adventurous.</label><br>
+            <select class="form-control-sm" id="question9">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+
+        <div class="form-group">
+            <h4>Question 10</h4>
+            <label for="question10">One fault you have as a friend is that you're a bit nosey.</label><br>
+            <select class="form-control-sm" id="question10">
+                <option selected>Select an Option</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>        
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="submitBtn"><span class="fas fa-user-check"></span>  Submit</button>
+        </div>
+
+        <a href="/api/friends">API Friends List |</a>                
+        <a href="https://github.com/sespert/FriendFinder">GitHub Repo</a>
+    </div>
+
+    <script type="text/javascript">
+        $("#submitBtn").on("click", function(event){
+            event.preventDefault();
+
+            var scoreInput = {
+                score1: $("#question1").val().trim(),
+                score2: $("#question2").val().trim(),
+                score3: $("#question3").val().trim(),
+                score4: $("#question4").val().trim(),
+                score5: $("#question5").val().trim(),
+                score6: $("#question6").val().trim(),
+                score7: $("#question7").val().trim(),
+                score8: $("#question8").val().trim(),
+                score9: $("#question9").val().trim(),
+                score10: $("#question10").val().trim()
+            }
+
+            var scores = Object.values(scoreInput);
+            console.log(scores);
+
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#picture").val().trim(),
+                scores: scores
+            };
+
+            console.log(newFriend);
+            
+            $.post("api/friends", newFriend).then(function(data){
+                console.log(data);
+                alert("Friend added");
+            })
+        });
+    
+    </script>
+</body>    

@@ -10,13 +10,20 @@ var PORT = process.env.PORT || 3030;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
+var Friends = require ("./app/data/friends");
 
 //Routes
 //--------------------------------------------------
-app.get("/", function(req,res){
+// app.get("/", function(req,res){
+//     res.send("testing");
+// });
 
-});
+//Include api routes in the server file
+require("./app/routing/apiRoutes")(app);
+
+//Include htmlRoutes in the server file
+require("./app/routing/htmlRoutes")(app);
+
 
 
 //The server starts listening
