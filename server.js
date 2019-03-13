@@ -10,7 +10,6 @@ var PORT = process.env.PORT || 3030;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-var Friends = require ("./app/data/friends");
 
 //Routes
 //--------------------------------------------------
@@ -28,6 +27,6 @@ require("./app/routing/htmlRoutes")(app);
 
 //The server starts listening
 app.listen(PORT, function(){
-    console.log("Server started on port " + PORT);
+    console.log("Server started on http://localhost:" + PORT);
 })
 
