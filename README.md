@@ -12,7 +12,7 @@ This is a full-stack site using Node.js and Express. The user has to answer 10 p
 
 Javascript, Node.js, ExpressJS.
 
-![See it in action!](https://polar-scrubland-99721.herokuapp.com/)
+[See it in action!](https://polar-scrubland-99721.herokuapp.com/)
 
 ## Copyright
 
