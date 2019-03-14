@@ -6,7 +6,7 @@ This is a full-stack site using Node.js and Express. The user has to answer 10 p
 
 - The app is run with Node.js and uses ExpressJS to handle routing.
 
-![Home Page]()
+![Home Page](https://github.com/sespert/FriendFinder/blob/master/app/images/Home.png)
 
 ## Tech/Framed Used
 
